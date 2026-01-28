@@ -8,8 +8,13 @@ backend/node_modules/
 frontend/.next/
 frontend/out/
 backend/**/dist/
+**/dist/
 backend/dist/
 backend/build/
+backend/chat/dist/
+backend/mail/dist/
+backend/user/dist/
+
 
 # Logs
 npm-debug.log*

@@ -225,7 +225,7 @@ export const getMessagesByChat = TryCatch(async(req: AuthenticatedRequest, res) 
     }
 
     const isUserInChat = chat.users.some(
-        (userId) => userId.toString() === userId.toString()
+        (id) => userId.toString() === id.toString()
     );
 
     if(!isUserInChat){
